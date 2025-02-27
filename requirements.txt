@@ -1,0 +1,5 @@
+pyspark
+azure-storage-blob
+confluent-kafka
+kazoo
+logging
