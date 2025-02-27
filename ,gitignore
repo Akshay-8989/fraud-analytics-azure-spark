@@ -1,0 +1,81 @@
+# Python files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.swp
+*.swo
+
+# Virtual Environment
+venv/
+env/
+.env
+.venv
+.python-version
+.envrc
+
+# System files
+.DS_Store
+Thumbs.db
+.directory
+
+# Spark & PySpark
+metastore_db/
+derby.log
+spark-warehouse/
+*.crc
+*.class
+*.jar
+
+# Kafka & Zookeeper
+kafka-logs/
+zookeeper/
+zookeeper-data/
+*.pid
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data files
+data/
+*.parquet
+*.csv
+*.json
+*.avro
+*.orc
+*.delta
+*.db
+
+# Model files
+models/
+*.h5
+*.pkl
+*.joblib
+*.model
+
+# Config & Secret files
+# Uncomment if you want to ignore config.py
+# config.py
+secrets.json
+*.key
+*.pem
+*.secret
+
+# Azure Storage
+azure-blob-config.json
+azure-credentials.json
+azure-blob-storage/
+
+# Logs & Temp Files
+logs/
+*.log
+*.out
+*.err
+*.tmp
+nohup.out
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
