@@ -1,4 +1,4 @@
-# Fraud Detection Pipeline  
+# ADF Fraud Detection Pipeline  
 
 ## Overview  
 Fraud Detection ETL Pipeline is an end-to-end system for detecting fraudulent transactions using **Apache Spark, Kafka, Azure Data Factory, and Azure Blob Storage**. It supports real-time processing with Kafka and batch analytics using Spark.  
